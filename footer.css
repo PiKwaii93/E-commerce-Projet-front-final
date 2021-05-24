@@ -1,0 +1,64 @@
+body > footer {
+	display: grid;
+	row-gap:10px;
+	padding: 40px 10px 0;
+	box-sizing: border-box;
+	border-top: 1px solid black;
+}
+
+
+
+.bas {
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding : 40px 10px 0;
+	margin-left : 10%;
+	margin-right: 10%;
+
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.social ul{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.social img{
+	height: 80px;
+}
+
+.service {
+	width: 50%;
+	margin : 0 auto;
+}
+
+.services h1 {
+	font-size: 2em;
+}
+
+.services img{
+    height: 100px;
+}
+
+.services ul{
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left:50px;
+	margin-right: 50px;
+}
+
+.information h1 {
+	font-size: 1.5em;
+}
+

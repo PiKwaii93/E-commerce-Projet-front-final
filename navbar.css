@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "RetroWave";
+    src: url('font.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:link { 
+    text-decoration:none;
+    color : black;
+}
+
+a:visited {
+    color : black;
+}
+
+header img{
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 72px;
+}
+
+
+
+header {
+    border-bottom: 1px solid #6bd4b1;
+}
+
+.titre {
+    display: block;
+    padding : 30px;
+    font-size: 20px;
+}
+
+header > nav > ul {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: space-between;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+header li a{
+    display: block;
+    padding :30px;
+    font-size: 20px;
+}
+
+header li {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.sub-menu {
+    display: none;
+    background-color:#6bd4b1;
+}
+
+
+header li:hover a {
+    background-color: #6bd4b1;
+    color: white;
+}
+
+header li:hover .sub-menu {
+    display: block;
+    position : absolute;
+}
+
+.sub-menu li {
+    display: block;
+}
+
+.sub-menu li a {
+    color : black;
+}
+
+.sub-menu li:hover a {
+    background-color: white;
+    color : #6bd4b1
+}
+
+nav > ul > li > form > input {
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(207, 202, 202);
+    margin-top:6%;
+} 
+
+
+
