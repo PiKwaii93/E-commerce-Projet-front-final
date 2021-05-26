@@ -43,6 +43,7 @@ body > footer {
 .service {
 	width: 50%;
 	margin : 0 auto;
+	padding-bottom: 40px;
 }
 
 .titre {
@@ -95,11 +96,14 @@ body > footer {
 }
 
 
-
+.information{
+	font-size:1.1em;
+}
 
 
 .information h1 {
 	font-size: 1.5em;
+	padding-bottom:10px;
 }
 
 .CGV{
