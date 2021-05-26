@@ -62,6 +62,7 @@ body > footer {
     height: 100px;
 }
 
+
 .container {
 	width: 90%;
 	text-align: center;
@@ -92,6 +93,7 @@ body > footer {
 .lien{
 	display: flex;
 	flex-direction: column;
+	color : #727171;
 	
 }
 
@@ -116,11 +118,11 @@ body > footer {
 }
 
 .CGV a:link {
-	color:white;
+	color : #b1b1b1;
 }
 
 .CGV a:visited {
-	color : white;
+	color : #b1b1b1;
 }
 
 .logo-footer{
@@ -130,4 +132,11 @@ body > footer {
 .lien-CGV{
 	margin-top:auto;
 	margin-bottom:auto;
+	font-size: 1.1em;
+
+}
+
+
+.information li {
+	color : #727171;
 }
