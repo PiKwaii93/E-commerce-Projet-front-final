@@ -7,12 +7,12 @@
     box-sizing: border-box;
 }
 
-a:link { 
+nav a:link { 
     text-decoration:none;
     color : black;
 }
 
-a:visited {
+nav a:visited {
     color : black;
 }
 
@@ -28,11 +28,6 @@ header {
     border-bottom: 1px solid #6bd4b1;
 }
 
-.titre {
-    display: block;
-    padding : 30px;
-    font-size: 20px;
-}
 
 header > nav > ul {
     width: 100%;
