@@ -7,12 +7,12 @@
     box-sizing: border-box;
 }
 
-nav a:link { 
+a:link { 
     text-decoration:none;
     color : black;
 }
 
-nav a:visited {
+a:visited {
     color : black;
 }
 
@@ -61,7 +61,7 @@ header li {
 
 
 header li:hover a {
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(46, 45, 45);;
     color: white;
 }
 
@@ -91,6 +91,3 @@ nav > ul > li > form > input {
     background-color: rgb(207, 202, 202);
     margin-top:6%;
 } 
-
-
-

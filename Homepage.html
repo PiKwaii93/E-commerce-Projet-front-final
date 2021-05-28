@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="navbar.css">
     <!-- Css footer -->
     <link rel="stylesheet" href="footer.css">
+    
+        
 </head>
 
 <body>
@@ -24,7 +26,7 @@
                 </li>
                 <li>
                     <a href="" title="Le site">Le site</a>
-                    <ul class="sub-menu">
+                    <ul class="menu_sous">
                         <li>
                             <a href="">A propos</a>
                         </li>
@@ -38,7 +40,7 @@
                 </li>
                 <li>
                     <a href="catalogue.html" title="Boutique">Catalogue</a>
-                    <ul class="sub-menu">
+                    <ul class="menu_sous">
                         <li>
                             <a href="">Mangas / Comics</a>
                         </li>
@@ -62,26 +64,145 @@
             </ul>
         </nav>
 
-
-
-
-
-        
-
         <section id="hero">
 			<h1>Lorem ipsum dolor sit amet<br>Lorem ipsum dolor sit amet</h1>
 			<a href="#main">Lorem ipsum dolor sit amet</a>
 		</section>
 
     </header>
+    
     <main>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vitae reprehenderit fuga ab ex nam animi commodi ipsam provident aspernatur. Dicta laborum excepturi voluptas impedit debitis repellendus nam obcaecati delectus.
+        <div class="actualité">
+            <div class="titre-actualité">
+                <h1>Actualité</h1>
+            </div>
+            <div class="fenetre">
+                <figure>
+                <img src="manga.png" alt="manga">
+                <img src="lol.jpg" alt="lol">
+                <img src="KDA.jpg" alt="KDA">
+                <img src="figurine.jpg" alt="figurine">
+                <img src="comics.jpg" alt="comics">
+                </figure>
+            </div>
+        </div>
+
+        <div class="Presentation">
+            <div class="titre-presentation">
+                <h1>PopPeople : </h1>
+            </div>
+            <section class="information-presentation">
+                <div class="texte-presentation">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in elit in velit sollicitudin maximus et non massa. 
+                    Donec maximus felis nec quam scelerisque, in porta quam dictum. Sed quis rhoncus nulla. Sed efficitur, eros eu mattis 
+                    finibus, purus leo lobortis sapien, in iaculis nunc felis eu tortor. Nulla a sem ut tellus malesuada congue ut in orci. 
+                    Nulla facilisis, mi hendrerit sodales imperdiet, nisl augue vehicula ex, quis volutpat diam nisi eget ipsum. Curabitur 
+                    eu sodales metus. Nullam elit ipsum, imperdiet ac libero in, tempor vestibulum enim. Vestibulum vestibulum arcu et eros 
+                    fermentum, quis ullamcorper tortor pellentesque. Donec id gravida metus, nec mattis felis. Suspendisse id nisi vestibulum, 
+                    lobortis sem ut, commodo lectus.
+                </div>
+                <div>
+                    <img class="image-presentation" src="Logo bleu.png">
+                </div>
+            </section>
+            
+        </div>
+        
+        <div class="nouveautés">
+            <div class="titre-nouveautés">
+                <h1>Nouveautés</h1>
+            </div>
+            <div class="container-nouveautés">
+                <figure id="carousel">
+                    <img src="manga.png" alt="manga">
+                    <img src="lol.jpg" alt="lol">
+                    <img src="KDA.jpg" alt="KDA">
+                    <img src="figurine.jpg" alt="figurine">
+                    <img src="comics.jpg" alt="comics">
+                    <img src="Logo bleu.png">
+                    <img src="invincible.png">
+                </figure>
+            </div>
+            <button class="bouton-previous" onclick="prev()"><img src="previous.png"></button>
+            <button class="bouton-next" onclick="next()"><img src="next.png"></button>
+
+            <div class="voir_plus">
+                <a href="">Voir tout - Les nouveautés >>> </a>
+            </div>
+
+        </div>
+
+        <script>
+            document.getElementById('carousel').style.transitionDuration="1s";
+            carousel =  document.getElementById('carousel');
+            var i = 0;
+            
+
+            function next(){
+                switch (i) {
+                    case 0: 
+                        carousel.style.left = "var(--j)";
+                        i++;
+                        console.log(i);
+                        break;
+                    case 1:
+                        carousel.style.left = "calc(var(--j) * 2";
+                        i++;
+                        console.log(i);
+                        break;
+                    case 2: 
+                        carousel.style.left = "calc(var(--j) * 3";
+                        i++;
+                        console.log(i);
+                        break;
+                    case 3:
+                        carousel.style.left = "calc(var(--j) * 4";
+                        i++;
+                        console.log(i);
+                        break;
+                    default :
+                        break;
+                }
+            }
+
+            function prev(){
+                switch (i) {
+                    case 4:
+                        carousel.style.left = "calc(var(--j) * 3";
+                        i--;
+                        console.log(i);
+                        break;
+                    case 3: 
+                        carousel.style.left = "calc(var(--j) * 2";
+                        i--;
+                        console.log(i);
+                        break;
+                    case 2:
+                        carousel.style.left = "var(--j)";
+                        i--;
+                        console.log(i);
+                        break;
+                    case 1: 
+                        carousel.style.left = "0";
+                        i--;
+                        console.log(i);
+                        break;
+                    default :
+                        break;
+                }
+            }
+
+
+        </script>
+
+
     </main>
+    
 
     <footer>
         <section class="services">
             <div class="container">
-                <div class="titre">
+                <div class="titre-services">
                     <h1>Les services PopPeople</h1>
                 </div>
                 <div class="container-services">
@@ -149,6 +270,7 @@
 
 
     </footer>
+    
 </body>
 
 </html>

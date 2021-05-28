@@ -1,0 +1,15 @@
+[{
+    "id": "1",
+    "name": "Naruto",
+    "description": "c'est le manga naruto",
+    "img_src": "D:/Hetic/Projet_E-commerce/Images/Naruto.jpg",
+    "unit_price": "20",
+    "available": "true/false"
+}, {
+    "id": "2",
+    "name": "DBZ",
+    "description": "c'est le manga DBZ",
+    "img_src": "D:/Hetic/Projet_E-commerce/Images/Dbz.jpg",
+    "unit_price": "20",
+    "available": "true/false"
+}]
