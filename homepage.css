@@ -33,7 +33,7 @@ main{
 main div.fenetre figure {
 	position: relative; 
 	justify-content: center;
-	width: 500%;
+	width: 200%;
 	margin: 0;
 	padding: 0;
 	font-size: 0;
@@ -134,12 +134,16 @@ main div.fenetre figure {
 
 .information-presentation{
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 .texte-presentation{
 	width: 70%;
 	font-size: 1.05em;
+}
+
+.texte-presentation p {
+	text-align:justify;
 }
 
 .image-presentation{
@@ -162,8 +166,10 @@ main div.fenetre figure {
 
 .container-nouveautés{
 	width: 200%;
+	height: 300px;
 	padding:40px;
 	padding-bottom: 20px;
+	overflow: hidden;
 }
 
 .container-nouveautés figure{
@@ -195,11 +201,7 @@ main div.container-nouveautés figure{
 	
 }
 
-.voir_plus{
-	font-size: 1.1em;
-	position: relative;
-	left:75%;
-}
+
 
 
 
@@ -243,4 +245,152 @@ main div.container-nouveautés figure{
 
 :root{
 	--j : -425px;
+}
+
+
+@media screen and ( max-width: 700px ) {
+
+	.Presentation{
+		margin-left:auto;
+		margin-right: auto;
+	}
+	.titre-presentation{
+		margin-left:10%;
+	}
+
+	.information-presentation{
+		display: block;
+		flex-direction: column;
+		margin-left:20%;
+		margin-right:20%;
+	}
+	.nouveautés{
+		width: 100%;
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
+	
+	.titre-nouveautés{
+		font-size: 2em;
+		text-align: center;
+		padding-bottom: 20px;
+		font-weight: bold;
+	}
+	
+	.container-nouveautés{
+		width: 200%;
+		height: 300px;
+		padding:40px;
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+	
+	.container-nouveautés figure{
+		display: flex;
+		flex-direction: row;
+		position:relative;
+		justify-content: center;
+		width: 500%;
+		
+	}
+	
+	.container-nouveautés img{
+		width: 400px;
+		margin : 10px;
+		
+	}
+	
+	
+	.container-nouveautés{
+		width: 100%;
+		max-width: 100%;
+	}
+	
+	
+	main div.container-nouveautés figure{
+		position: relative;
+		width: 500%;
+		margin: 0;
+		margin-left: 20%;
+		
+		
+	}
+
+	.titre-actualité{
+		font-size: 2.6em;
+		text-align: center;
+		padding-top: 52px;
+		font-weight: bold;
+	}
+	
+	.fenetre{
+		width: 80%;
+		max-width: 100px;
+		margin-top:20px;
+		margin-bottom: 40px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	main div.fenetre figure {
+		position: relative; 
+		justify-content: center;
+		width: 200%;
+		margin: 0;
+		padding: 0;
+		font-size: 0;
+	}
+	main div.fenetre figure img {
+		width: 20%;
+		height: auto;
+	}
+	main div.fenetre {
+		width: 80%; 
+		max-width: 1000px; 
+		overflow: hidden;
+	}
+	main div.fenetre figure {
+		position: relative;
+		width: 500%;
+		margin: 0;
+		padding: 0;
+		font-size: 0;
+		animation-name: fenetre;
+		animation-duration: 35s;
+		animation-iteration-count: infinite;
+	}
+	
+
+	.bouton-next img{
+		width: 50%;
+	}
+	.bouton-previous img{
+		width: 50%;
+	}
+
+	.bouton-next{
+		position:absolute;
+		border:none;
+		outline:none;
+		padding:0;
+		margin:0;
+		width: 10%;
+		cursor: pointer;
+		left:91%;
+		bottom: -1150px;
+
+	}
+
+	.bouton-previous{
+		position: absolute;
+		border:none;
+		outline:none;
+		padding:0;
+		margin:0;
+		width: 10%;;
+		cursor: pointer;
+		bottom: -1150px;		 
+	}
+
+	
+
 }

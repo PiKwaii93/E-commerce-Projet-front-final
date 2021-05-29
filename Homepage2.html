@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <!-- Css navbar -->
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="navbar2.css">
     <!-- Css footer -->
     <link rel="stylesheet" href="footer.css">
     
@@ -19,27 +19,13 @@
 
 <body>
     <header>
-        <nav class="menu">
+        <!--<nav class="menu">
             <ul>
-                <img class="logo" src="Logo bleu.png">
-                
-                <!-- menu burger -->
-			    <img class="burger" src="menu.svg" alt="menu">
-
-                <script>
-                    function toggleMenu () {
-                        const navbar = document.querySelector('.menu');
-                        const burger = document.querySelector('.burger');
-                        burger.addEventListener('click', (e) =>{
-                            navbar.classList.toggle('opened');
-                        })
-                    }
-                    toggleMenu();
-                    
-                </script>
-                
-                <li class="li-nav1">
-                    <a class="lien-nav1"  title="Le site">Le site</a>
+                <li>
+                    <img class="logo" src="Logo bleu.png">
+                </li>
+                <li>
+                    <a href="" title="Le site">Le site</a>
                     <ul class="menu_sous">
                         <li>
                             <a href="">A propos</a>
@@ -52,8 +38,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="li-nav2">
-                    <a class="lien-nav2"  title="Boutique">Catalogue</a>
+                <li>
+                    <a href="catalogue.html" title="Boutique">Catalogue</a>
                     <ul class="menu_sous">
                         <li>
                             <a href="">Mangas / Comics</a>
@@ -67,49 +53,68 @@
                             </li>
                     </ul>
                 </li>
-                <li class="li-nav3">
+                <li>
                     <form action="">
                         <input type="texte" placeholder="Recherche article">
                     </form>
                 </li>
-                <li class="li-nav4">
+                <li>
                     <img class="cadie" src="icons8-caddie-64.png" alt="panier">
                 </li>
             </ul>
+        </nav>-->
 
-            <script>
-                function toggleLien1 () {
-                    const liennav1 = document.querySelector('.lien-nav1');
-                    const linav1 = document.querySelector('.li-nav1');
-                    const linav2 = document.querySelector('.li-nav2');
-                    const linav3 = document.querySelector('.li-nav3');
-                    const linav4 = document.querySelector('.li-nav4');
-                    liennav1.addEventListener('click', (e) =>{
-                        linav1.classList.toggle('opened1');
-                        linav2.classList.toggle('notopened1');
-                        linav3.classList.toggle('notopened1');
-                        linav4.classList.toggle('notopened1');
-                    })
-                }
-                toggleLien1();
+        <nav>
+			<!-- Icone -->
+			<a href="index.html" title="page d'accueil">
+				<img class="logo" src="Logo bleu.png" alt="logo ls-a">
+			</a>
 
-                function toggleLien2 () {
-                    const liennav2 = document.querySelector('.lien-nav2');
-                    const linav2 = document.querySelector('.li-nav2');
-                    const linav3 = document.querySelector('.li-nav3');
-                    const linav4 = document.querySelector('.li-nav4');
-                    liennav2.addEventListener('click', (e) =>{
-                        linav2.classList.toggle('opened2');
-                        linav3.classList.toggle('notopened2');
-                        linav4.classList.toggle('notopened2');
-                    })
-                }
-                toggleLien2();
+			<!-- menu burger -->
+			<img src="menu.svg" alt="menu">
 
-                
-            </script>
+			<!-- Liste liens -->
+			<ul>
+				<li>
+                    <a href="" class="active">Accueil</a>
+                    <ul class="menu_sous">
+                        <li>
+                            <a href="">A propos</a>
+                        </li>
+                        <li>
+                            <a href="">Nous contacter</a>
+                        </li>
+                        <li>
+                            <a href="">F.A.Q.</a>
+                        </li>
+                    </ul>
+                </li>
+				<li>
+                    <a href="catalogue.html" title="Boutique">Catalogue</a>
+                    <ul class="menu_sous">
+                        <li>
+                            <a href="">Mangas / Comics</a>
+                        </li>
+                        <li>
+                            <a href="">Figurines</a>
+                        </li>
+                        <li>
+                            <a href="">Musiques</a>
 
-        </nav>
+                            </li>
+                    </ul>
+                </li>
+				<li>
+                    <form action="">
+                        <input type="texte" placeholder="Recherche article">
+                    </form>
+                </li>
+				<li>
+                    <a href =""><img src="icons8-caddie-64.png"></a>
+                </li>
+			</ul>
+		</nav>
+
 
         <section id="hero">
 			<h1>Lorem ipsum dolor sit amet<br>Lorem ipsum dolor sit amet</h1>
@@ -134,26 +139,26 @@
             </div>
         </div>
 
-        <section class="Presentation">
+        <div class="Presentation">
             <div class="titre-presentation">
                 <h1>PopPeople : </h1>
             </div>
             <section class="information-presentation">
                 <div class="texte-presentation">
-                    <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in elit in velit sollicitudin maximus et non massa. 
                     Donec maximus felis nec quam scelerisque, in porta quam dictum. Sed quis rhoncus nulla. Sed efficitur, eros eu mattis 
                     finibus, purus leo lobortis sapien, in iaculis nunc felis eu tortor. Nulla a sem ut tellus malesuada congue ut in orci. 
                     Nulla facilisis, mi hendrerit sodales imperdiet, nisl augue vehicula ex, quis volutpat diam nisi eget ipsum. Curabitur 
-                    eu sodales metus. Nullam elit ipsum, imperdiet ac libero in, tempor vestibulum enim.
-                    </p>
+                    eu sodales metus. Nullam elit ipsum, imperdiet ac libero in, tempor vestibulum enim. Vestibulum vestibulum arcu et eros 
+                    fermentum, quis ullamcorper tortor pellentesque. Donec id gravida metus, nec mattis felis. Suspendisse id nisi vestibulum, 
+                    lobortis sem ut, commodo lectus.
                 </div>
                 <div>
                     <img class="image-presentation" src="Logo bleu.png">
-                </s>
+                </div>
             </section>
             
-        </section>
+        </div>
         
         <div class="nouveautés">
             <div class="titre-nouveautés">
@@ -173,6 +178,9 @@
             <button class="bouton-previous" onclick="prev()"><img src="previous.png"></button>
             <button class="bouton-next" onclick="next()"><img src="next.png"></button>
 
+            <div class="voir_plus">
+                <a href="">Voir tout - Les nouveautés >>> </a>
+            </div>
 
         </div>
 
@@ -204,16 +212,6 @@
                         i++;
                         console.log(i);
                         break;
-                    case 4:
-                        carousel.style.left = "calc(var(--j) * 5";
-                        i++;
-                        console.log(i);
-                        break;
-                    case 5:
-                        carousel.style.left = "calc(var(--j) * 6";
-                        i++;
-                        console.log(i);
-                        break;
                     default :
                         break;
                 }
@@ -221,16 +219,6 @@
 
             function prev(){
                 switch (i) {
-                    case 6:
-                        carousel.style.left ="calc(var(--j) * 5";
-                        i--;
-                        console.log(i);
-                        break;
-                    case 5:
-                        carousel.style.left ="calc(var(--j) * 4";
-                        i--;
-                        console.log(i);
-                        break;
                     case 4:
                         carousel.style.left = "calc(var(--j) * 3";
                         i--;

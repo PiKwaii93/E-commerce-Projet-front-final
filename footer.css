@@ -136,8 +136,100 @@ body > footer {
 	font-size: 1.1em;
 
 }
+.CGV img{
+	padding-top:2%;
+}
 
 
 .information li {
 	color : #727171;
 }
+
+@media screen and ( max-width: 700px ) {
+		
+	.service {
+		width: 50%;
+		margin : 0 auto;
+	}
+
+	.titre-services {
+		display: block;
+		padding-bottom: 30px;
+		font-size: 20px;
+		text-align: start;
+		font-weight: bold;
+	}
+
+	.services h1 {
+		font-size: 2em;
+	}
+
+
+	.services img{
+		height: 90px;
+	}
+
+
+	.container {
+		width: 90%;
+		text-align: center;
+		margin: auto;
+	}
+
+	.container-services{
+		display: flex;
+		flex-wrap:wrap;
+		line-height: 23px;
+		font-size : 1rem;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		text-transform: uppercase;
+		justify-content: space-between;
+	}
+
+	.case-services {
+		background-color: white;
+		width: 18%;
+		padding:1%;
+		border-radius: 10px;
+	}
+
+	.case-container a {
+		cursor: pointer;
+	}
+
+	.lien{
+		display: flex;
+		flex-direction: column;
+		color : #727171;
+		
+	}
+	.texte{
+		font-size: 0.85em;
+	}
+
+	
+	.information{
+		font-size:1.1em;
+	}
+
+
+	.information h1 {
+		font-size: 1.5em;
+		padding-bottom:10px;
+	}
+
+	.social{
+		margin-top:auto;
+		margin-bottom:auto;
+		width: 55%;
+	}
+	.social img{
+		height: 50px;
+		justify-content: space-between;
+
+		
+	}
+	
+
+}
+
