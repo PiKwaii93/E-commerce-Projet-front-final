@@ -4,11 +4,12 @@ const listeDesArticles = document.querySelector('.liste_des_articles') //
 
 let chariot = [];
 
+
 class ObtentionDesProduits {
     async RecuperartionProduits() {
 
         try {
-            let resultat = await fetch("https://pikwaii93.github.io/E-commerce.github.io/Produits.json"); //je récupère mon JSON grace à fetch 
+            let resultat = await fetch("https://pikwaii93.github.io/E-commerce.github.io/Produits2.json"); //je récupère mon JSON grace à fetch 
             let BDD = await resultat.json();
             let produits = BDD.store;
             produits = produits.map(store => { // je créee un nouveau tableau pour stocker les produits que j'ai récupéré
@@ -59,7 +60,7 @@ class AffichageDesProduits {
             
         });
 
-        main.appendChild(resultat); //ici je choisis l'emplacement ou le Js ressosrtira en html 
+        listeDesArticles.innerHTML = resultat; //ici je choisis l'emplacement ou le Js ressosrtira en html 
         //c'est à dire dans la class '.liste_des_articles' que j'ai affecté à ma variable ci dessus 
 
 
