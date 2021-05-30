@@ -59,6 +59,12 @@ header li a{
     font-size: 20px;
 }
 
+.shop{
+    display: inherit;
+    padding:0;
+    font-size: inherit;
+}
+
 header li {
     display: inline-block;
     position: relative;
@@ -102,6 +108,26 @@ nav > ul > li > form > input {
     background-color: rgb(207, 202, 202);
     margin-top:6%;
 } 
+
+.li-nav4{
+    display: flex;
+}
+.compteur{
+    display: flex;
+    position: absolute;
+    left:45%;
+    top:35%;
+    font-size: 1.1em;
+}
+
+.li-nav4:hover a{
+    background-color: inherit;
+    color:inherit;
+}
+
+
+
+
 
 
 
@@ -155,7 +181,7 @@ nav > ul > li > form > input {
         display: none;
         position : absolute;
     }
-    .menu_sous li:hover a {
+    .menu_sous li:hover a{
         background-color: none;
         color : none;
     }
@@ -213,7 +239,12 @@ nav > ul > li > form > input {
         margin-top: 1%;
         margin-bottom: 1%;
     }
-    
+    .cart{
+        display: flex;
+        position: relative;
+        left:-100px;
+        
+    }
 
 
 }

@@ -19,7 +19,7 @@ class ObtentionDesProduits {
     async RecuperartionProduits() {
 
         try {
-            let resultat = await fetch("http://localhost:8888/store.json"); //je récupère mon JSON grace à fetch 
+            let resultat = await fetch("https://pikwaii93.github.io/E-commerce.github.io/store.json"); //je récupère mon JSON grace à fetch 
             let BDD = await resultat.json();
             let produits = BDD.store;
             produits = produits.map(store => { // je créee un nouveau tableau pour stocker les produits que j'ai récupéré 

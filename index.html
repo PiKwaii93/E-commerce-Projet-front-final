@@ -39,7 +39,7 @@
                 </script>
                 
                 <li class="li-nav1">
-                    <a class="lien-nav1"  title="Le site">Le site</a>
+                    <a class="lien-nav1 lienbg"  title="Le site">Le site</a>
                     <ul class="menu_sous">
                         <li>
                             <a href="">A propos</a>
@@ -53,10 +53,10 @@
                     </ul>
                 </li>
                 <li class="li-nav2">
-                    <a class="lien-nav2"  title="Boutique">Catalogue</a>
+                    <a class="lien-nav2 lienbg"  title="Boutique">Catalogue</a>
                     <ul class="menu_sous">
                         <li>
-                            <a href="">Mangas / Comics</a>
+                            <a href="">Tout nos produits</a>
                         </li>
                         <li>
                             <a href="">Figurines</a>
@@ -73,7 +73,8 @@
                     </form>
                 </li>
                 <li class="li-nav4">
-                    <img class="cadie" src="icons8-caddie-64.png" alt="panier">
+                    <a class="shop"><img class="cadie" src="icons8-caddie-64.png" alt="panier"></a>
+                    <div class="compteur">0</div>
                 </li>
             </ul>
 
@@ -107,6 +108,14 @@
                 toggleLien2();
 
                 
+            </script>
+            <script>
+                const compteurnav = document.querySelector('.compteur');
+
+                let nombre = 10;
+
+                compteurnav.textContent = nombre;
+
             </script>
 
         </nav>

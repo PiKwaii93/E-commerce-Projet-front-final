@@ -1,0 +1,59 @@
+[
+    {
+        "id/sku"  :  "0",
+        "name" : "Berserk - Figurine Guts Et Zodd VS Ganishka Diorama",
+        "description" :  "La statue se présente sous la forme d’un Diorama pouvant se regarder à 360°.",
+        "img_src" :  "img_json/berserk ",
+        "category" : "",
+        "unit_price" : "",
+        "available" : ""
+    },
+    {
+        "id/sku"  :  "1",
+        "name" : "",
+        "description" :  "",
+        "img_src" :  "",
+        "category" : "",
+        "unit_price" : "",
+        "available" : ""
+    },
+    {
+        "id/sku"  :  "2",
+        "name" : "",
+        "description" :  "",
+        "img_src" :  "",
+        "category" : "",
+        "unit_price" : "",
+        "available" : ""
+    },
+    {
+        "id/sku"  :  "3",
+        "name" : "",
+        "description" :  "",
+        "img_src" :  "",
+        "category" : "",
+        "unit_price" : "",
+        "available" : ""
+    },
+    {
+        "id/sku"  :  "4",
+        "name" : "",
+        "description" :  "",
+        "img_src" :  "",
+        "category" : "",
+        "unit_price" : "",
+        "available" : ""
+    },
+    {
+        "id/sku"  :  "5",
+        "name" : "",
+        "description" :  "",
+        "img_src" :  "",
+        "category" : "",
+        "unit_price" : "",
+        "available" : ""
+    }
+    
+    
+    
+]
