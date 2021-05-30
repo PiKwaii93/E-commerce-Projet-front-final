@@ -8,6 +8,7 @@ request.send();
 var main = document.querySelector("main");
 
 function produits(jsonObj){
+    
 
     for(var i=0; i<jsonObj.length; i++){
         var myArticle = document.createElement('article');
@@ -18,6 +19,7 @@ function produits(jsonObj){
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
         var myButton = document.createElement('button');
+        var myId = document.createElement('p')
 
 
         myH2.textContent = jsonObj[i].name;
@@ -31,6 +33,8 @@ function produits(jsonObj){
             myPara4.textContent = "Indisponible";
         }
         myButton.textContent = "Ajouter au Panier"
+      
+
 
         myArticle.classList.toggle('produit');
         myH2.classList.toggle('name');
@@ -39,6 +43,7 @@ function produits(jsonObj){
         myPara2.classList.toggle('category');
         myPara3.classList.toggle('prix');
         myPara4.classList.toggle('dispo');
+        myId.classList.toggle('identifiant');
         myButton.classList.toggle('ajouter');
 
 
@@ -53,6 +58,11 @@ function produits(jsonObj){
         myArticle.appendChild(myButton);
 
 
+
+        
+        
+
+
         main.appendChild(myArticle);
 
 
@@ -65,3 +75,6 @@ request.onload = function() {
     var products = request.response;
     produits(products);
   }
+
+
+ 
