@@ -1,15 +1,29 @@
 [{
-    "id": "1",
+    "id": "0",
     "name": "Naruto",
-    "description": "c'est le manga naruto",
-    "img_src": "D:/Hetic/Projet_E-commerce/Images/Naruto.jpg",
-    "unit_price": "20",
-    "available": "true/false"
-}, {
-    "id": "2",
+    "prix": 30.00,
+    "image": "D:/Hetic/Projet_E-commerce/Images/Naruto.jpg"
+
+},
+{
+    "id": "1",
     "name": "DBZ",
-    "description": "c'est le manga DBZ",
-    "img_src": "D:/Hetic/Projet_E-commerce/Images/Dbz.jpg",
-    "unit_price": "20",
-    "available": "true/false"
-}]
+    "prix": 40.00,
+    "image": "D:/Hetic/Projet_E-commerce/Images/Dbz.jpg"
+
+},
+{
+    "id": "2",
+    "name": "One piece",
+    "prix": 50.00,
+    "image": "D:/Hetic/Projet_E-commerce/Images/one_piece.jpg"
+
+},
+{
+    "id": "3",
+    "name": "Fairy Tail",
+    "prix": 19.00,
+    "image": "D:/Hetic/Projet_E-commerce/Images/fairy_tail.jpg"
+
+}
+]
