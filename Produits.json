@@ -3,57 +3,227 @@
         "id/sku"  :  "0",
         "name" : "Berserk - Figurine Guts Et Zodd VS Ganishka Diorama",
         "description" :  "La statue se présente sous la forme d’un Diorama pouvant se regarder à 360°.",
-        "img_src" :  "img_json/berserk ",
-        "category" : "",
-        "unit_price" : "",
-        "available" : ""
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/berserk.jpg",
+        "category" : "Berserk",
+        "unit_price" : "1 824,90 €",
+        "available" : "true"
     },
     {
         "id/sku"  :  "1",
-        "name" : "",
-        "description" :  "",
-        "img_src" :  "",
-        "category" : "",
-        "unit_price" : "",
-        "available" : ""
+        "name" : "Dragon Ball Super - Figurine The Bardock [The Two Dimensions] BWFC III Super Master Stars",
+        "description" :  "Bardock fait son grand retour dans la gamme BWFC III Super Master Stars Piece avec sa version [The Two Dimensions]. D'une taille de 17 et éditée par Banpresto, cette véritable pièce de collection saura plaire aux fans de Dragon Ball. ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/bardock.jpg",
+        "category" : "Dragon Ball",
+        "unit_price" : "59,90 €",
+        "available" : "true"
     },
     {
         "id/sku"  :  "2",
-        "name" : "",
-        "description" :  "",
-        "img_src" :  "",
-        "category" : "",
-        "unit_price" : "",
-        "available" : ""
+        "name" : "One Piece - Figurine Gol D. Roger The Grandline Men Wanokuni DXF Vol.12",
+        "description" :  "Gol D. Roger est de retour sur notre shop avec cette figurine top de la gamme The Grandline Men Wanokuni DXF Vol. 12 ! D'une hauteur de 17 cm, celle-ci se fera sa place dans votre figurine à coup de sabre s'il le faut.",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/Roger.jpg",
+        "category" : "One Piece",
+        "unit_price" : "29,90 €",
+        "available" : "true"
     },
     {
         "id/sku"  :  "3",
-        "name" : "",
-        "description" :  "",
-        "img_src" :  "",
-        "category" : "",
-        "unit_price" : "",
-        "available" : ""
+        "name" : "Demon Slayer Kimetsu No Yaiba - Figurine Kamado Tanjiro Grandista",
+        "description" :  "Retrouvez Tanjiro en grand format avec cette grande figurine de la gamme Grandista de chez Banpresto. D'une taille de 24 cm, elle sera parfaite dans votre collection. ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/tanjiro.jpg",
+        "category" : "Demon Slayer",
+        "unit_price" : "39,90 €",
+        "available" : "true"
     },
     {
         "id/sku"  :  "4",
+        "name" : "Demon Slayer Kimetsu No Yaiba - Figurine Muzan Kibutsuji Demon Series",
+        "description" : "Muzan Kibutsuji fait sa sinistre apparition dans notre shop dans la gamme de figurine Demon Series de chez Banpresto ! D'une hauteur de 17 cm, cette figurine n'attend qu'une chose, se retrouver dans votre collection ! ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/muzan.jpg",
+        "category" : "Demon Slayer",
+        "unit_price" : "29,90 €",
+        "available" : "false"
+    },
+    {
+        "id/sku"  :  "5",
+        "name" : "The Rising Of The Shield Hero - Figurine Naofumi Iwatani Pop Up Parade",
+        "description" :  "Naofumi Iwatani, le héro au Bouclier fait son entrée en brandissant son arme ! Cette figurine de 17 cm qui débarque de la gamme Pop Up Parade de chez Goodsmile fera très bonne figure dans votre collection naissante des figurines de l'anime/manga The Rising Of The Shield Hero, (Tate no Yusha no Nariagari ou L'avènement du héros au bouclier en français). ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/naofumi.jpg",
+        "category" : "The Rising Of The Shield Hero",
+        "unit_price" : "47,90 €",
+        "available" : "false"
+    },
+    {
+        "id/sku"  :  "6",
+        "name" : "One Piece - Figurine Rebecca Sweet Style Pirates Ver.A",
+        "description" :  "Rebecca rejoint la collection Sweet Style Pirates de chez Banpresto ! Cette figurine de 23 cm fera des heureux dans le rangs des #TeamRebecca de One Piece !",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/rebecca.jpg",
+        "category" : "One Piece",
+        "unit_price" : "32,90 €",
+        "available" : "false"
+    },
+    {
+        "id/sku"  :  "7",
+        "name" : "Dragon Ball Super - Figurine Goku SSGSS Clearise",
+        "description" :  "Goku Super Saiyan God Super Saiyan en version Clearise de chez Banpresto entre dans notre boutique ! Cet effet particulier appliqué sur la figurine qui tente de reproduire l'effet du Ki propre à la série. Haute de 20 cm cette figurine ferait une très belle addition à votre collection ! ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj_blue.jpg",
+        "category" : "Dragon Ball",
+        "unit_price" : "34,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "8",
+        "name" : "Dragon Ball - Figurine Gotenks SSJ Dragon Ball Legends Collab",
+        "description" :  "Gotenks SSJ fait son doughnut inter-galactique avec cette figurine de la gamme Dragon Ball Legends Collab de Banpresto ! Haute de 17 cm, cette figurine saura faire sa place dans votre collection ! ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/gotenks.jpg",
+        "category" : "Dragon Ball",
+        "unit_price" : "29,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "9",
+        "name" : "One Piece - Figurine Monkey D Luffy Wanokuni Grandline DXF Vol.11",
+        "description" :  "Monkey D. Luffy en version Wanokuni dans la gamme Grandline DXF de chez Banpresto ! Haute de 16 cm cette figurine sera une belle addition à votre collection ! ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/luffy1.jpg",
+        "category" : "One Piece",
+        "unit_price" : "29,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "10",
+        "name" : "My Hero Academia - Figurine Izuku Midoriya (The Amazing Heroes Vol. 13)",
+        "description" :  "Notre Midoriya-Shonen est de retour, cette fois-ci dans la gamme The Amazing Heroes de chez Banpresto ! Deku est en train de faire une pinchenette avec son revêtement All For One ! Cette figurine de 14 cm fera une très belle addition à votre collection.",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/izuku.jpg",
+        "category" : "My Hero Academia",
+        "unit_price" : "29,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "11",
+        "name" : "Demon Slayer Kimetsu No Yaiba - Figurine Gyomei Himejima Vol.16",
+        "description" :  "Gyomei Himejima, Pourfendeur de démon Élite et Pilier de la Pierre fait sa première entrée dans notre shop ! Cette superbe figurine de 20 cm représente parfaitement ce personnage secondaire majeur. Éditée par Banpresto. ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/gyomei.jpg",
+        "category" : "Demon Slayer",
+        "unit_price" : "29,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "12",
+        "name" : "Dr. Stone - Ishigami Senku Figuarts Zero",
+        "description" :  "Ça y est ! Nous avons le plaisir d'ajouter cette magnifique figurine de Senku Ishigami brandissant avec fierté le drapeau de son Royaume Scientifique ! Derrière lui se dresse avec délicatesse des effluves de Sulfurina, la déesse mortelle composée de sulfide d'hydrogène et de dioxyde de sulfure. Première figurine du manga/anime Dr.Stone de la gamme Figuarts Zero de chez Bandai, cette petite merveille (scientifique) de 29 cm intégrera forcément la collection des fans de  celui-ci. ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/senku.jpg",
+        "category" : "Dr.Stone",
+        "unit_price" : "59,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "13",
+        "name" : "One Piece - Figurines Gol D. Roger (Ver. A) & Edward Newgate (Ver. A) Manhood",
+        "description" :  "Vous l'avez rêvé, le voilà réalité. Le combat Gol D. Roger vs Edward Newgate est maintenant matérialisé dans ce pack de 2 figurines de la gamme Manhood. Ces figurines, respectivement 9 et 10 cm éditées par Banpresto est un must-have pour tous les fans de One Piece ! ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/roger_edward.jpg",
+        "category" : "One Piece",
+        "unit_price" : "49,90 €",
+        "available" : "false"
+    },
+    {
+        "id/sku"  :  "14",
+        "name" : "Boruto - Figurine Uzumaki Naruto Vibration Stars",
+        "description" :  "Naruto 7e Hokage est prêt à Rasenganiser son ennemie imaginaire avec cette figurine à son effigie de la gamme Vibration Stars de chez Banpresto ! D'une taille de 13 cm, il sera facile de lui trouver une place sur votre étagère ! ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/naruto_boruto.jpg",
+        "category" : "Naruto",
+        "unit_price" : "34,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "15",
+        "name" : "My Hero Academia - Figurine Katsuki Bakugo The Amazing Heroes Vol. 14",
+        "description" :  "Katsuki Bakugo est de retour encore plus explosif qu'avant avec cette superbe figurine de la gamme The Amazing Heroes ! D'une taille de 12 cm et dans une position hyper dynamique, cette figurine fera sans nul doute parti de votre collection (si vous êtes fan de la licence !)",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/bakugo.jpg",
+        "category" : "My Hero Academia",
+        "unit_price" : "29,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "16",
+        "name" : "Jojo's Bizarre Adventure - Figurine Jonathan Joestar Chozoart",
+        "description" :  "Protégez votre collection de figurine contre les stands sauvages de Dio avec cette magnifique figurine de Jonathan Joestar de Jojo's Bizarre Adventure de la gamme ChozoArt de chez Medicos Entertainment. Cette magnifique statue de Jonathan Joestar mesure 25  et est vraiment splendide !",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/Jonathan.jpg",
+        "category" : "Jojo's Bizarre Adventures",
+        "unit_price" : "159,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "17",
+        "name" : "Dragon Ball Super - Figurine Shallot SSJ Ichibansho",
+        "description" :  "Shallot SSJ fait son entrée dans la gamme Ichibansho Rising Fighters de chez Bandai ! Cette superbe figurine de 18 cm sera une parfaite addition dans votre collection. ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/shallot.jpg",
+        "category" : "Dragon Ball",
+        "unit_price" : "44,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "18",
+        "name" : "NieR Automata - Figurine YoRHa No. 2 Type B (2B)",
+        "description" :  "Voici YoRHa No.2 Type B ou 2B pour les intimes tout droit sortie du jeu vidéo NieR:Automata. Cette android a été éditée par Flare pour combattre la forme de vie machine qui a envahit la Terre ! Du haut de ses 28cm, elle sera parfaite pour les fans du jeu !",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/yorha.jpg",
+        "category" : "NieR Automata",
+        "unit_price" : "209,90 €",
+        "available" : "false"
+    },
+    {
+        "id/sku"  :  "19",
+        "name" : "Demon Slayer Kimetsu No Yaiba - Figure Nezuko Kamado Pop Up Parade",
+        "description" :  "Nezuko-chan fait son entrée remarquée dans la fameuse gamme des Pop Up Parade de chez Good Smile Company ! Cette petite figurine de 14 cm rend vraiment hommage à notre Nezuko, cette gamme n'ayant plus rien à prouver à ceux qui ont déjà commandé des pièces de celle-ci. ",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/nezuko.jpg",
+        "category" : "Demon Slayer",
+        "unit_price" : "44,90 €",
+        "available" : "false"
+    },
+    {
+        "id/sku"  :  "20",
+        "name" : "One Piece - Figurine Brook Tamashii Box Vol. 2",
+        "description" :  "Voici une petite figurine de Brook de la gamme de figurine de collection Tamashii Nations (Box vol. 2) de chez Bandai. Cette figurine fait partie d'un ensemble de 6 figurines qui ensemble, forme un superbe diorama.",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/brook.jpg",
+        "category" : "One Piece",
+        "unit_price" : "12,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "21",
+        "name" : "One Piece - Figurine Usopp Tamashii Box Vol. 2",
+        "description" :  "Voici une petite figurine de Usopp de la gamme de figurine de collection Tamashii Nations (Box vol. 2) de chez Bandai. Cette figurine fait partie d'un ensemble de 6 figurines qui ensemble, forme un superbe diorama.",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/usopp.jpg",
+        "category" : "One Piece",
+        "unit_price" : "12,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "22",
+        "name" : "One Piece - Figurine Tony Tony Chopper Tamashii Box Vol. 2",
+        "description" :  "Voici une petite figurine de Tony Tony Chopper de la gamme de figurine de collection Tamashii Nations (Box vol. 2) de chez Bandai. Cette figurine fait partie d'un ensemble de 6 figurines qui ensemble, forme un superbe diorama.",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/chopper.jpg",
+        "category" : "One Piece",
+        "unit_price" : "12,90 €",
+        "available" : "true"
+    },
+    {
+        "id/sku"  :  "23",
         "name" : "",
         "description" :  "",
-        "img_src" :  "",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/.jpg",
         "category" : "",
         "unit_price" : "",
         "available" : ""
     },
     {
-        "id/sku"  :  "5",
+        "id/sku"  :  "24",
         "name" : "",
         "description" :  "",
-        "img_src" :  "",
+        "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/.jpg",
         "category" : "",
         "unit_price" : "",
         "available" : ""
     }
-    
     
     
 ]
