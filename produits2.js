@@ -35,8 +35,6 @@ class ObtentionDesProduits {
 
 }
 
-var main = document.queryCommandEnabled('main');
-
 class AffichageDesProduits {
     ProduitsAffiches(produits) {
         let resultat = "";
