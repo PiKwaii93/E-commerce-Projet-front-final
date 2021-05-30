@@ -17,6 +17,7 @@ function produits(jsonObj){
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
+        var myButton = document.createElement('button');
 
 
         myH2.textContent = jsonObj[i].name;
@@ -29,13 +30,27 @@ function produits(jsonObj){
         }else{
             myPara4.textContent = "Indisponible";
         }
+        myButton.textContent = "Ajouter au Panier"
+
+        myArticle.classList.toggle('produit');
+        myH2.classList.toggle('name');
+        myPara1.classList.toggle('description');
+        myImg.classList.toggle('image');
+        myPara2.classList.toggle('category');
+        myPara3.classList.toggle('prix');
+        myPara4.classList.toggle('dispo');
+        myButton.classList.toggle('ajouter');
+
+
+
 
         myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara1);
         myArticle.appendChild(myImg);
+        myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myPara4);
+        myArticle.appendChild(myButton);
 
 
         main.appendChild(myArticle);

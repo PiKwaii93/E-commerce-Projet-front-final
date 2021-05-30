@@ -1,0 +1,66 @@
+
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-column-gap: 3%;
+    grid-row-gap : 30px;
+    background-color: rgb(247,247,247);
+    
+}
+
+article{
+    border : solid 1px black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+.produit > * {
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-top:10px
+}
+
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 1.1em;
+}
+
+.category{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.prix{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.image{
+    position: relative;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto ;
+}
+
+.dispo{
+    text-align: end;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.ajouter{
+    margin:0;
+    padding-bottom: 10px;
+    
+    
+}
