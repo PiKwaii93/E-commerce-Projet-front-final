@@ -1,6 +1,6 @@
 @font-face {
     font-family: "RetroWave";
-    src: url('font.ttf');
+    src: url('/fonts/font.ttf');
 }
 
 * {
@@ -250,6 +250,10 @@ nav > ul > li > form > input {
         position: relative;
         left:-100px;
         
+    }
+    .compteur{
+        left:35px;
+        top:28px;
     }
 
 
