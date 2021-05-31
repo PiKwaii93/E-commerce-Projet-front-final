@@ -8,10 +8,10 @@ request.send();
 
 var main = document.querySelector("main");
 
-function produits(jsonObj){
+function produits(products){
     
 
-    for(var i=0; i<jsonObj.length; i++){
+    for(var i=0; i<products.length; i++){
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
@@ -23,18 +23,18 @@ function produits(jsonObj){
         var myId = document.createElement('p')
 
 
-        myH2.textContent = jsonObj[i].name;
-        myPara1.textContent = jsonObj[i].description;
-        myImg.src = jsonObj[i].img_src;
-        myPara2.textContent = jsonObj[i].category;
-        myPara3.textContent = jsonObj[i].unit_price;
-        if(jsonObj[i].available == "true"){
+        myH2.textContent = products[i].name;
+        myPara1.textContent = products[i].description;
+        myImg.src = products[i].img_src;
+        myPara2.textContent = products[i].category;
+        myPara3.textContent = products[i].unit_price;
+        if(products[i].available == "true"){
             myPara4.textContent = "Disponible";
         }else{
             myPara4.textContent = "Indisponible";
         }
         myButton.textContent = "Ajouter au Panier";
-        myId.textContent = jsonObj[i].id;
+        myId.textContent = products[i].id;
       
 
 
@@ -78,8 +78,8 @@ function produits(jsonObj){
 
     groupe.forEach(element =>{
         element.addEventListener('click', (e) => {
-            jsonObj[e.target.id]["quantite"]++;
-            localStorage.setItem('verif', JSON.stringify(jsonObj));
+            products[e.target.id]["quantite"]++;
+            localStorage.setItem('verif', JSON.stringify(products));
         })
     })
 }
@@ -105,10 +105,10 @@ var main = document.querySelector("main");
 var compteurproduit = document.querySelector('.compteur');
 var stock = 0;
 
-function verifquantite(jsonObj){
-    for(var k = 0; k<jsonObj.length; k++){
-        if(jsonObj[k]["quantite"] > 0){
-            stock+=jsonObj[k]["quantite"];
+function verifquantite(products){
+    for(var k = 0; k<products.length; k++){
+        if(products[k]["quantite"] > 0){
+            stock+=products[k]["quantite"];
         }
     }
 }

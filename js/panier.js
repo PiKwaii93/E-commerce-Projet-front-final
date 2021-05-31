@@ -5,13 +5,13 @@ var compteurproduit = document.querySelector('.compteur');
 var stock = 0;
 var stockprix= 0;
 
-function verifquantite(jsonObj){
-    for(var k = 0; k<jsonObj.length; k++){
-        if(jsonObj[k]["quantite"] > 0){
-            stock+=jsonObj[k]["quantite"];
-            let changeprix = jsonObj[k]["unit_price"].replace("€", "");
+function verifquantite(products){
+    for(var k = 0; k<products.length; k++){
+        if(products[k]["quantite"] > 0){
+            stock+=products[k]["quantite"];
+            let changeprix = products[k]["unit_price"].replace("€", "");
             stockprix += parseInt(changeprix);
-            console.log(jsonObj[k])
+            console.log(products[k])
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
             var myPara1 = document.createElement('p');
@@ -25,14 +25,14 @@ function verifquantite(jsonObj){
             var myId = document.createElement('p')
 
 
-            myH2.textContent = jsonObj[k].name;
-            myPara1.textContent = jsonObj[k].description;
-            myImg.src = jsonObj[k].img_src;
-            myPara2.textContent = jsonObj[k].category;
-            myPara3.textContent = jsonObj[k].unit_price;
-            myId.textContent = jsonObj[k].id;
+            myH2.textContent = products[k].name;
+            myPara1.textContent = products[k].description;
+            myImg.src = products[k].img_src;
+            myPara2.textContent = products[k].category;
+            myPara3.textContent = products[k].unit_price;
+            myId.textContent = products[k].id;
             myButton1.textContent = "-";
-            myQuantite.textContent = jsonObj[k]["quantite"];
+            myQuantite.textContent = products[k]["quantite"];
             myButton2.textContent = "+";
         
 
@@ -81,18 +81,18 @@ function verifquantite(jsonObj){
 
     groupe1.forEach(element =>{
         element.addEventListener('click', (e) => {
-            jsonObj[e.target.id]["quantite"]++;
-            localStorage.setItem('verif', JSON.stringify(jsonObj));
+            products[e.target.id]["quantite"]++;
+            localStorage.setItem('verif', JSON.stringify(products));
         })
     })
 
     groupe2.forEach(element => {
         element.addEventListener('click', (e) =>{
-            if(jsonObj[e.target.id]["quantite"] <= 0){
+            if(products[e.target.id]["quantite"] <= 0){
                 return;
             }else{
-                jsonObj[e.target.id]["quantite"]--;
-                localStorage.setItem('verif', JSON.stringify(jsonObj))
+                products[e.target.id]["quantite"]--;
+                localStorage.setItem('verif', JSON.stringify(products))
             }
         })
     })
