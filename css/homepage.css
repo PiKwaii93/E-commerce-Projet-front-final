@@ -4,9 +4,6 @@
 }
 
 
-
-
-
 body {
     font-family: "RetroWave", cursive;
 	overflow-x: hidden;
@@ -99,7 +96,7 @@ main div.fenetre figure {
 	align-items: center;
 	row-gap: 50px;
 	height: 100vh;
-	background: url("invincible.png");
+	background: url("../Image/invincible.png");
 	background-size: cover;
 	background-position: center center;
 	color: white;
@@ -188,6 +185,7 @@ main div.fenetre figure {
 
 .container-nouveautés{
 	width: 100%;
+	height: auto;
 	max-width: 100%;
 }
 

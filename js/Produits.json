@@ -6,7 +6,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/berserk.jpg",
         "category" : "Berserk",
         "unit_price" : "1 824,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "1",
@@ -15,7 +16,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/bardock.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "59,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0"  
     },
     {
         "id"  :  "2",
@@ -24,7 +26,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/Roger.jpg",
         "category" : "One Piece",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "3",
@@ -33,7 +36,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/tanjiro.jpg",
         "category" : "Demon Slayer",
         "unit_price" : "39,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "4",
@@ -42,7 +46,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/muzan.jpg",
         "category" : "Demon Slayer",
         "unit_price" : "29,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "5",
@@ -51,7 +56,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/naofumi.jpg",
         "category" : "The Rising Of The Shield Hero",
         "unit_price" : "47,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "6",
@@ -60,7 +66,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/rebecca.jpg",
         "category" : "One Piece",
         "unit_price" : "32,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "7",
@@ -69,7 +76,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj_blue.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "34,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "8",
@@ -78,7 +86,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/gotenks.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "9",
@@ -87,7 +96,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/luffy1.jpg",
         "category" : "One Piece",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "10",
@@ -96,7 +106,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/izuku.jpg",
         "category" : "My Hero Academia",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "11",
@@ -105,7 +116,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/gyomei.jpg",
         "category" : "Demon Slayer",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "12",
@@ -114,7 +126,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/senku.jpg",
         "category" : "Dr.Stone",
         "unit_price" : "59,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "13",
@@ -123,7 +136,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/roger_edward.jpg",
         "category" : "One Piece",
         "unit_price" : "49,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "14",
@@ -132,7 +146,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/naruto_boruto.jpg",
         "category" : "Naruto",
         "unit_price" : "34,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "15",
@@ -141,7 +156,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/bakugo.jpg",
         "category" : "My Hero Academia",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "16",
@@ -150,7 +166,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/Jonathan.jpg",
         "category" : "Jojo's Bizarre Adventures",
         "unit_price" : "159,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "17",
@@ -159,7 +176,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/shallot.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "44,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "18",
@@ -168,7 +186,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/yorha.jpg",
         "category" : "NieR Automata",
         "unit_price" : "209,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "19",
@@ -177,7 +196,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/nezuko.jpg",
         "category" : "Demon Slayer",
         "unit_price" : "44,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "20",
@@ -186,7 +206,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/brook.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "21",
@@ -195,7 +216,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/usopp.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "22",
@@ -204,7 +226,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/chopper.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "23",
@@ -213,7 +236,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/zoro.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "24",
@@ -222,7 +246,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/luffy2.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "25",
@@ -231,7 +256,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/franky.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90€",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "26",
@@ -240,7 +266,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/sanji.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "27",
@@ -249,7 +276,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/robin.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "28",
@@ -258,7 +286,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/nami.jpg",
         "category" : "One Piece",
         "unit_price" : "12,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "29",
@@ -267,7 +296,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/gojo.jpg",
         "category" : "Jujutsu Kaisen",
         "unit_price" : "279,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "30",
@@ -276,7 +306,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/roger2.jpg",
         "category" : "One Piece",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "31",
@@ -285,7 +316,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/trunks.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "32,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "32",
@@ -294,7 +326,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/jotaro.jpg",
         "category" : "Jojo's Bizarre Adventure",
         "unit_price" : "69,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "33",
@@ -303,7 +336,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "34",
@@ -312,7 +346,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/black.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "35",
@@ -321,7 +356,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/sanemi.jpg",
         "category" : "Demon Slayer",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "36",
@@ -330,7 +366,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/jotaro2.jpg",
         "category" : "Jojo's Bizarre Adventure",
         "unit_price" : "109,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "37",
@@ -339,7 +376,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/tsunade.jpg",
         "category" : "Naruto",
         "unit_price" : "59,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "38",
@@ -348,7 +386,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/zodd.jpg",
         "category" : "Berserk",
         "unit_price" : "599,00€",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "39",
@@ -357,7 +396,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/gogeta_ssj_blue.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "74,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "40",
@@ -366,7 +406,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/rathalos.jpg",
         "category" : "Monster Hunter",
         "unit_price" : "124,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "41",
@@ -375,7 +416,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/ichiban.jpg",
         "category" : "Monster Hunter",
         "unit_price" : "139,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "42",
@@ -384,7 +426,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/spiderman_punk.jpg",
         "category" : "Marvel",
         "unit_price" : "49,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "43",
@@ -393,7 +436,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/valstrax.jpg",
         "category" : "Monster Hunter",
         "unit_price" : "214,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "44",
@@ -402,7 +446,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/zinogre.jpg",
         "category" : "Monster Hunter",
         "unit_price" : "149,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "45",
@@ -411,7 +456,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/boa.jpg",
         "category" : "One Piece",
         "unit_price" : "24,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "46",
@@ -420,7 +466,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/jewelry.jpg",
         "category" : "One Piece",
         "unit_price" : "24,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "47",
@@ -429,7 +476,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/eren.jpg",
         "category" : "Attack On Titan",
         "unit_price" : "134,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "48",
@@ -438,7 +486,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/mikasa.jpg",
         "category" : "Attack On Titan",
         "unit_price" : "134,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "49",
@@ -447,7 +496,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/nergigante.jpg",
         "category" : "Monster Hunter",
         "unit_price" : "299,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "50",
@@ -456,7 +506,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/yuji.jpg",
         "category" : "Jujutsu Kaisen",
         "unit_price" : "169,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "51",
@@ -465,7 +516,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/rathalos2.jpg",
         "category" : "Monster Hunter",
         "unit_price" : "54,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "52",
@@ -474,7 +526,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/kaido.jpg",
         "category" : "One Piece",
         "unit_price" : "89,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "53",
@@ -483,7 +536,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/marco.jpg",
         "category" : "One Pice",
         "unit_price" : "59,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "54",
@@ -492,7 +546,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/nami2.jpg",
         "category" : "One Piece",
         "unit_price" : "49,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "55",
@@ -501,7 +556,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/zoro2.jpg",
         "category" : "One Piece",
         "unit_price" : "59,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "56",
@@ -510,7 +566,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/mandalorien.jpg",
         "category" : "Star Wars",
         "unit_price" : "329,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "57",
@@ -519,7 +576,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/shinobu.jpg",
         "category" : "Demon Slayer",
         "unit_price" : "239,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "58",
@@ -528,7 +586,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/hawks.jpg",
         "category" : "My Hero Academia",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "59",
@@ -537,7 +596,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj_blue2.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "29,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "60",
@@ -546,7 +606,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/tanjiro2.jpg",
         "category" : "Demon Slayer",
         "unit_price" : "47,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "61",
@@ -555,7 +616,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/jibril.jpg",
         "category" : "No Game no Life",
         "unit_price" : "259,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  : "62",
@@ -564,7 +626,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/cloak_dagger.jpg",
         "category" : "Marvel",
         "unit_price" : "47,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "63",
@@ -573,7 +636,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/shoto.jpg",
         "category" : "My Hero Academia",
         "unit_price" : "49,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "64",
@@ -582,7 +646,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/superman.jpg",
         "category" : "DC comics",
         "unit_price" : "3 299,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "65",
@@ -591,7 +656,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/joker.jpg",
         "category" : "DC comics",
         "unit_price" : "549,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "66",
@@ -600,7 +666,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/deadpool.jpg",
         "category" : "Marvel",
         "unit_price" : "659,00 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "67",
@@ -609,7 +676,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/captain.jpg",
         "category" : "Marvel",
         "unit_price" : "599,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "68",
@@ -618,7 +686,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/stan_lee.jpg",
         "category" : "Marvel",
         "unit_price" : "169,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "69",
@@ -627,7 +696,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/antman.jpg",
         "category" : "Marvel",
         "unit_price" : "44,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "70",
@@ -636,7 +706,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/harley.jpg",
         "category" : "DC comics",
         "unit_price" : "899,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "71",
@@ -645,7 +716,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/flash.jpg",
         "category" : "DC comics",
         "unit_price" : "599,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "72",
@@ -654,7 +726,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/hulk.jpg",
         "category" : "Marvel",
         "unit_price" : "216,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "73",
@@ -663,7 +736,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/drstrange.jpg",
         "category" : "Marvel",
         "unit_price" : "699,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "74",
@@ -672,7 +746,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/ironman.jpg",
         "category" : "Marvel",
         "unit_price" : "1459,00 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "75",
@@ -681,7 +756,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/black_widow.jpg",
         "category" : "Marvel",
         "unit_price" : "849,00 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     },
     {
         "id"  :  "76",
@@ -690,7 +766,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/thanos.jpg",
         "category" : "Marvel",
         "unit_price" : "649,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "77",
@@ -699,7 +776,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/vegeta.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "1949,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "78",
@@ -708,7 +786,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj_all.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "1 849,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "79",
@@ -717,7 +796,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/broly.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "89,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "80",
@@ -726,7 +806,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_10.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "94,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "81",
@@ -735,7 +816,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj1.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "84,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "82",
@@ -744,7 +826,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj3.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "94,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "83",
@@ -753,7 +836,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/goku_ssj4.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "69,90 €",
-        "available" : "true"
+        "available" : "true",
+        "quantite" : "0" 
     },
     {
         "id"  :  "84",
@@ -762,7 +846,8 @@
         "img_src" :  "https://pikwaii93.github.io/E-commerce.github.io/img_json/bulma.jpg",
         "category" : "Dragon Ball",
         "unit_price" : "29,90 €",
-        "available" : "false"
+        "available" : "false",
+        "quantite" : "0" 
     }
     
     

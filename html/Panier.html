@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Css reset -->
+        <link rel="stylesheet" href="../css/homepage.css">
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+        <link rel="stylesheet" href="../css/panier.css">
+        <!-- Css navbar -->
+        <link rel="stylesheet" href="../css/navbar.css">
+        <!-- Css footer -->
+        <link rel="stylesheet" href="../css/footer.css">
+        
+            
+    </head>
+    
+    <body>
+        <header>
+            <nav class="menu">
+                <ul>
+                    <a class="li-logo" href="index.html"><img class="logo" src="../Image/Logo bleu.png"></a>
+                    
+                    <!-- menu burger -->
+                    <img class="burger" src="../Image/menu.svg" alt="menu">
+                    
+                    <li class="li-nav1">
+                        <a class="lien-nav1"  title="Le site">Le site</a>
+                        <ul class="menu_sous">
+                            <li>
+                                <a href="">A propos</a>
+                            </li>
+                            <li>
+                                <a href="">Nous contacter</a>
+                            </li>
+                            <li>
+                                <a href="">F.A.Q.</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li-nav2">
+                        <a class="lien-nav2"  title="Boutique">Catalogue</a>
+                        <ul class="menu_sous">
+                            <li>
+                                <a href="Produits.html">Tout nos produits</a>
+                            </li>
+                            <li>
+                                <a href="">Figurines</a>
+                            </li>
+                            <li>
+                                <a href="">Musiques</a>
+    
+                                </li>
+                        </ul>
+                    </li>
+                    <li class="li-nav3">
+                        <form action="">
+                            <input type="texte" placeholder="Recherche article">
+                        </form>
+                    </li>
+                    <li class="li-nav4">
+                        <a href="Panier.html" class="shop"><img class="cadie" src="../Image/icons8-caddie-64.png" alt="panier"></a>
+                        <div class="compteur">0</div>
+                    </li>
+                </ul>
+    
+    
+            </nav>
+    
+            <section id="hero">
+                <h1>Lorem ipsum dolor sit amet<br>Lorem ipsum dolor sit amet</h1>
+                <a href="#main">Lorem ipsum dolor sit amet</a>
+            </section>
+    
+        </header>
+        <main>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <form class="form_paiement">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Formulaire d'achat</h2>
+                        </div>
+                        <div class="modal-body">
+                            <fieldset class=>
+                                <legend>Votre identité</legend>
+                                <label for="prenom">Prénom</label>
+                                <input type="text" class="prenom" name="prenom" required>
+                                <label for="nom">Nom</label>
+                                <input type="text" class="nom" name="nom" required>
+                                <label for="numéro">Téléphone</label>
+                                <input type="number" class="numero" name="numero" required>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Information de livraison</legend>
+                                <label for="email">Adresse email</label>
+                                <input type="email" class="email" name="email" required>
+                                <label for="adresse">Adresse postal</label>
+                                <input type="text" class="adresse" name="adresse" required>
+                                <label for="ville">Ville</label>
+                                <input type="text" class="ville" name="ville" required>
+                                <label for="code_postal">Code Postal</label>
+                                <input type="number" class="code_postal" name="code_postal" required>
+                                <label for="pays">Pays</label>
+                                <input type="text" class="pays" name="pays" required>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Information bancaire</legend>
+                                <label for="credit_card">Numéro de carte</label>
+                                <input type="number" class="credit_card" name="credit_card" required>
+                                <label for="credit_code">Code de sécurité</label>
+                                <input type="number" class="credit_code" name="credit_code" required>
+                                <label for="credit_name">Nom du titulair</label>
+                                <input type="text" class="credit_name" name="credit_name" required>    
+                            </fieldset>
+                            <div class="acceptation">
+                                <label for="accept">Je confirme avoir lu les conditions et accepte de payer :</label>
+                                <input type="checkbox" class="accept" name="accept" required>
+                            </div>
+                            <div class="confirmation">
+                                <button type="submit" class="confirmer_paiement">Confirmer</button>                            
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>PopPeople@</h3>
+                        </div>
+                    </form>
+                </div>
+                    
+            
+            </div>
+  
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                  <p>Some text in the Modal Body</p>
+                  <p>Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <section class="services">
+                <div class="container">
+                    <div class="titre-services">
+                        <h1>Les services PopPeople</h1>
+                    </div>
+                    <div class="container-services">
+                        <div class="case-services">
+                            <a class="lien" href ="" >
+                                <span class="icone"><img src="../Image/paiement.png"></span>
+                                <span class="texte">Paiement sécurisé</span>
+                            </a>
+                        </div>
+                        <div class="case-services">
+                            <a class="lien" href ="" >
+                                <span class="icone"><img src="../Image/carte de fidélité.png"></span>
+                                <span class="texte">Votre fidélité récompensée</span>
+                            </a>
+                        </div>
+                        <div class="case-services">
+                            <a class="lien" href ="" >
+                                <span class="icone"><img src="../Image/retrait.png"></span>
+                                <span class="texte">Retrait en 1H</span>
+                            </a>
+                        </div>
+                        <div class="case-services">
+                            <a class="lien" href ="" >
+                                <span class="icone"><img src="../Image/guarantee.png"></span>
+                                <span class="texte">Garantie PopPeople</span>
+                            </a>
+                        </div>
+                        <div class="case-services">
+                            <a class="lien" href ="" >
+                                <span class="icone"><img src="../Image/livraison.png"></span>
+                                <span class="texte">Livraison 7/24</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="bas">
+                <section class="information">
+                    <h1>A propos</h1>
+                    <ul> 
+                        <li>Besoins d'aide ?</li>
+                        <li>Nous contacter</li>
+                        <li>Votre avis compte</li>
+                        <li>Presse</li>
+                        <li>Recrutement</li>
+                    </ul>    
+                </section>
+    
+                <section class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" ><img src="../Image/icons8-facebook-96.png" alt="logo Facebook"></a></li>
+                        <li><a href="https://instagram.com/lsa360"><img src="../Image/icons8-instagram-104.png" alt="logo Instagram"></a></li>
+                        <li><a href="https://twitter.com/?lang=fr"><img src="../Image/icons8-logo-twitter-encadré-96.png" alt="logo Twitter"></a></li>
+                        <li><a href="https://www.youtube.com/"><img src="../Image/youtube.png" alt="logo Youtube"></a></li>
+                    </ul>
+                </section>
+            </section>
+            <section class="CGV">
+                <a href="Homepage.html"><img class="logo-footer" src="../Image/Logo blanc.png"></a>
+                <a class="lien-CGV" href="">Condition générale de vente</a>
+                <a class="lien-CGV" href="">Cookies</a>
+                <a class="lien-CGV" href="">Vos informations personnelles</a>
+            </section>
+    
+    
+        </footer>
+    
+    </body>
+    <script>
+        function toggleLien1 () {
+            const liennav1 = document.querySelector('.lien-nav1');
+            const linav1 = document.querySelector('.li-nav1');
+            const linav2 = document.querySelector('.li-nav2');
+            const linav3 = document.querySelector('.li-nav3');
+            const linav4 = document.querySelector('.li-nav4');
+            liennav1.addEventListener('click', (e) =>{
+                linav1.classList.toggle('opened1');
+                linav2.classList.toggle('notopened1');
+                linav3.classList.toggle('notopened1');
+                linav4.classList.toggle('notopened1');
+            })
+        }
+        toggleLien1();
+
+        function toggleLien2 () {
+            const liennav2 = document.querySelector('.lien-nav2');
+            const linav2 = document.querySelector('.li-nav2');
+            const linav3 = document.querySelector('.li-nav3');
+            const linav4 = document.querySelector('.li-nav4');
+            liennav2.addEventListener('click', (e) =>{
+                linav2.classList.toggle('opened2');
+                linav3.classList.toggle('notopened2');
+                linav4.classList.toggle('notopened2');
+            })
+        }
+        toggleLien2();
+
+        function toggleMenu () {
+            const navbar = document.querySelector('.menu');
+            const burger = document.querySelector('.burger');
+            burger.addEventListener('click', (e) =>{
+                navbar.classList.toggle('opened');
+            })
+        }
+        toggleMenu();
+    </script>
+    <script type="text/javascript" src="../js/panier.js"></script>
+</html>
+

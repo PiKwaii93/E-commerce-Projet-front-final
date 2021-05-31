@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <!-- Css reset -->
-        <link rel="stylesheet" href="homepage.css">
+        <link rel="stylesheet" href="../css/homepage.css">
         <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-        <link rel="stylesheet" href="produits.css">
+        <link rel="stylesheet" href="../css/produits.css">
         <!-- Css navbar -->
-        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="../css/navbar.css">
         <!-- Css footer -->
-        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="../css/footer.css">
         
             
     </head>
@@ -21,22 +21,11 @@
         <header>
             <nav class="menu">
                 <ul>
-                    <img class="logo" src="Logo bleu.png">
+                    <a class="li-logo" href="index.html"><img class="logo" src="../Image/Logo bleu.png"></a>
                     
                     <!-- menu burger -->
-                    <img class="burger" src="menu.svg" alt="menu">
+                    <img class="burger" src="../Image/menu.svg" alt="menu">
     
-                    <script>
-                        function toggleMenu () {
-                            const navbar = document.querySelector('.menu');
-                            const burger = document.querySelector('.burger');
-                            burger.addEventListener('click', (e) =>{
-                                navbar.classList.toggle('opened');
-                            })
-                        }
-                        toggleMenu();
-                        
-                    </script>
                     
                     <li class="li-nav1">
                         <a class="lien-nav1"  title="Le site">Le site</a>
@@ -56,7 +45,7 @@
                         <a class="lien-nav2"  title="Boutique">Catalogue</a>
                         <ul class="menu_sous">
                             <li>
-                                <a href="">Tout nos produits</a>
+                                <a href="Produits.html">Tout nos produits</a>
                             </li>
                             <li>
                                 <a href="">Figurines</a>
@@ -73,41 +62,10 @@
                         </form>
                     </li>
                     <li class="li-nav4">
-                        <img class="cadie" src="icons8-caddie-64.png" alt="panier">
+                        <a href="Panier.html" class="shop"><img class="cadie" src="../Image/icons8-caddie-64.png" alt="panier"></a>
+                        <div class="compteur"></div>
                     </li>
                 </ul>
-    
-                <script>
-                    function toggleLien1 () {
-                        const liennav1 = document.querySelector('.lien-nav1');
-                        const linav1 = document.querySelector('.li-nav1');
-                        const linav2 = document.querySelector('.li-nav2');
-                        const linav3 = document.querySelector('.li-nav3');
-                        const linav4 = document.querySelector('.li-nav4');
-                        liennav1.addEventListener('click', (e) =>{
-                            linav1.classList.toggle('opened1');
-                            linav2.classList.toggle('notopened1');
-                            linav3.classList.toggle('notopened1');
-                            linav4.classList.toggle('notopened1');
-                        })
-                    }
-                    toggleLien1();
-    
-                    function toggleLien2 () {
-                        const liennav2 = document.querySelector('.lien-nav2');
-                        const linav2 = document.querySelector('.li-nav2');
-                        const linav3 = document.querySelector('.li-nav3');
-                        const linav4 = document.querySelector('.li-nav4');
-                        liennav2.addEventListener('click', (e) =>{
-                            linav2.classList.toggle('opened2');
-                            linav3.classList.toggle('notopened2');
-                            linav4.classList.toggle('notopened2');
-                        })
-                    }
-                    toggleLien2();
-    
-                    
-                </script>
     
             </nav>
     
@@ -130,31 +88,31 @@
                     <div class="container-services">
                         <div class="case-services">
                             <a class="lien" href ="" >
-                                <span class="icone"><img src="paiement.png"></span>
+                                <span class="icone"><img src="../Image/paiement.png"></span>
                                 <span class="texte">Paiement sécurisé</span>
                             </a>
                         </div>
                         <div class="case-services">
                             <a class="lien" href ="" >
-                                <span class="icone"><img src="carte de fidélité.png"></span>
+                                <span class="icone"><img src="../Image/carte de fidélité.png"></span>
                                 <span class="texte">Votre fidélité récompensée</span>
                             </a>
                         </div>
                         <div class="case-services">
                             <a class="lien" href ="" >
-                                <span class="icone"><img src="retrait.png"></span>
+                                <span class="icone"><img src="../Image/retrait.png"></span>
                                 <span class="texte">Retrait en 1H</span>
                             </a>
                         </div>
                         <div class="case-services">
                             <a class="lien" href ="" >
-                                <span class="icone"><img src="guarantee.png"></span>
+                                <span class="icone"><img src="../Image/guarantee.png"></span>
                                 <span class="texte">Garantie PopPeople</span>
                             </a>
                         </div>
                         <div class="case-services">
                             <a class="lien" href ="" >
-                                <span class="icone"><img src="livraison.png"></span>
+                                <span class="icone"><img src="../Image/livraison.png"></span>
                                 <span class="texte">Livraison 7/24</span>
                             </a>
                         </div>
@@ -176,15 +134,15 @@
     
                 <section class="social">
                     <ul>
-                        <li><a href="https://www.facebook.com/" ><img src="icons8-facebook-96.png" alt="logo Facebook"></a></li>
-                        <li><a href="https://instagram.com/lsa360"><img src="icons8-instagram-104.png" alt="logo Instagram"></a></li>
-                        <li><a href="https://twitter.com/?lang=fr"><img src="icons8-logo-twitter-encadré-96.png" alt="logo Twitter"></a></li>
-                        <li><a href="https://www.youtube.com/"><img src="youtube.png" alt="logo Youtube"></a></li>
+                        <li><a href="https://www.facebook.com/" ><img src="../Image/icons8-facebook-96.png" alt="logo Facebook"></a></li>
+                        <li><a href="https://instagram.com/lsa360"><img src="../Image/icons8-instagram-104.png" alt="logo Instagram"></a></li>
+                        <li><a href="https://twitter.com/?lang=fr"><img src="../Image/icons8-logo-twitter-encadré-96.png" alt="logo Twitter"></a></li>
+                        <li><a href="https://www.youtube.com/"><img src="../Image/youtube.png" alt="logo Youtube"></a></li>
                     </ul>
                 </section>
             </section>
             <section class="CGV">
-                <a href="Homepage.html"><img class="logo-footer" src="Logo blanc.png"></a>
+                <a href="Homepage.html"><img class="logo-footer" src="../Image/Logo blanc.png"></a>
                 <a class="lien-CGV" href="">Condition générale de vente</a>
                 <a class="lien-CGV" href="">Cookies</a>
                 <a class="lien-CGV" href="">Vos informations personnelles</a>
@@ -194,7 +152,44 @@
         </footer>
     
     </body>
-    <script type="text/javascript" src="produits.js"></script>
-    <script type="text/javascript" src="produits_selection.js"></script>
+    <script>
+        function toggleLien1 () {
+            const liennav1 = document.querySelector('.lien-nav1');
+            const linav1 = document.querySelector('.li-nav1');
+            const linav2 = document.querySelector('.li-nav2');
+            const linav3 = document.querySelector('.li-nav3');
+            const linav4 = document.querySelector('.li-nav4');
+            liennav1.addEventListener('click', (e) =>{
+                linav1.classList.toggle('opened1');
+                linav2.classList.toggle('notopened1');
+                linav3.classList.toggle('notopened1');
+                linav4.classList.toggle('notopened1');
+            })
+        }
+        toggleLien1();
+
+        function toggleLien2 () {
+            const liennav2 = document.querySelector('.lien-nav2');
+            const linav2 = document.querySelector('.li-nav2');
+            const linav3 = document.querySelector('.li-nav3');
+            const linav4 = document.querySelector('.li-nav4');
+            liennav2.addEventListener('click', (e) =>{
+                linav2.classList.toggle('opened2');
+                linav3.classList.toggle('notopened2');
+                linav4.classList.toggle('notopened2');
+            })
+        }
+        toggleLien2();
+
+        function toggleMenu () {
+            const navbar = document.querySelector('.menu');
+            const burger = document.querySelector('.burger');
+            burger.addEventListener('click', (e) =>{
+                navbar.classList.toggle('opened');
+            })
+        }
+        toggleMenu();
+    </script>
+    <script type="text/javascript" src="../js/produits.js"></script>
 </html>
 

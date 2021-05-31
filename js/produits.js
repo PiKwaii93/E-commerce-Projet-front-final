@@ -1,8 +1,9 @@
-var requestURL = "https://pikwaii93.github.io/E-commerce.github.io/Produits.json";
+var requestURL = "../js/Produits.json";
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
+
 
 
 var main = document.querySelector("main");
@@ -32,11 +33,13 @@ function produits(jsonObj){
         }else{
             myPara4.textContent = "Indisponible";
         }
-        myButton.textContent = "Ajouter au Panier"
+        myButton.textContent = "Ajouter au Panier";
+        myId.textContent = jsonObj[i].id;
       
 
 
         myArticle.classList.toggle('produit');
+        myArticle.id = i;
         myH2.classList.toggle('name');
         myPara1.classList.toggle('description');
         myImg.classList.toggle('image');
@@ -45,6 +48,7 @@ function produits(jsonObj){
         myPara4.classList.toggle('dispo');
         myId.classList.toggle('identifiant');
         myButton.classList.toggle('ajouter');
+        myButton.id = i;
 
 
 
@@ -56,7 +60,10 @@ function produits(jsonObj){
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myPara4);
         myArticle.appendChild(myButton);
+        myArticle.appendChild(myId);
 
+
+        
 
 
         
@@ -67,14 +74,46 @@ function produits(jsonObj){
 
 
     }
+    const groupe = document.querySelectorAll('.ajouter');
 
+    groupe.forEach(element =>{
+        element.addEventListener('click', (e) => {
+            jsonObj[e.target.id]["quantite"]++;
+            localStorage.setItem('verif', JSON.stringify(jsonObj));
+        })
+    })
 }
 
 
 request.onload = function() {
-    var products = request.response;
+    if(localStorage["verif"]){
+        products = JSON.parse(localStorage["verif"]);
+    }else{
+        var products = request.response;
+        localStorage.setItem('verif', JSON.stringify(products));
+
+    }
     produits(products);
-  }
+}
 
 
- 
+
+
+products = JSON.parse(localStorage["verif"]);
+
+var main = document.querySelector("main");
+var compteurproduit = document.querySelector('.compteur');
+var stock = 0;
+
+function verifquantite(jsonObj){
+    for(var k = 0; k<jsonObj.length; k++){
+        if(jsonObj[k]["quantite"] > 0){
+            stock+=jsonObj[k]["quantite"];
+        }
+    }
+}
+
+verifquantite(products);
+
+
+compteurproduit.textContent = stock;

@@ -1,0 +1,193 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-column-gap: 3%;
+    grid-row-gap : 30px;
+    background-color: rgb(247,247,247);
+    
+}
+
+article{
+    border : solid 1px black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.produit > * {
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-top:10px
+}
+
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.description{
+    text-align: start;
+    width: 50%;
+    font-size: 1.1em;
+}
+
+.category{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 10%;
+}
+
+.prix{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.image{
+    position: relative;
+    height: 300px;
+    margin-right:auto ;
+}
+.container_article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-right : 20px
+}
+
+.ajouter{
+    height: 30px;
+    width: 30px;
+    font-size: 1.3em;
+}
+.retirer{
+    height: 30px;
+    width: 30px;
+    font-size: 1.3em;
+}
+
+.quantite{
+    height: 30px;
+    width: 30px;
+    font-size: 1.3em;
+}
+
+.identifiant{
+    display: none;
+}
+
+.payer{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.total{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin:auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    display: none;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+  
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+  
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+  
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+  
+.modal-body {padding: 2px 16px;}
+  
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+fieldset{
+    display: grid;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+legend{
+    font-size: 1.5em;
+    padding-top: 10px;
+    
+}
+.confirmation{
+    padding:10px;
+}
+
+.confirmer_paiement{
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 50%;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.acceptation{
+    font-size: 1em;
+    font-weight: bold;
+}
+
