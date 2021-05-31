@@ -1,4 +1,4 @@
-var requestURL = "https://pikwaii93.github.io/E-commerce.github.io/js/Produits.json";
+var requestURL = "https://pikwaii93.github.io/E-commerce.github.io/Produits.json";
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
